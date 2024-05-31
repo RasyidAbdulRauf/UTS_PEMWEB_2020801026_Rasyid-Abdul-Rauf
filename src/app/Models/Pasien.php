@@ -25,12 +25,7 @@ class Pasien extends Model implements HasMedia
         'updated_at',
         'deleted_at',
     ];
-
-    public const CATEGORY_SELECT = [
-        'makanan' => 'Makanan',
-        'minuman' => 'Minuman',
-    ];
-
+    
     protected $fillable = [
         'name',
         'gender',
